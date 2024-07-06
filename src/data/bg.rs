@@ -1,14 +1,13 @@
+
 //! Bulgaria
 use super::*;
 
 /// Generate holiday map for Bulgaria.
 #[allow(unused_mut, unused_variables)]
-pub fn build(
-    years: &Option<&std::ops::Range<Year>>,
-) -> Result<HashMap<Year, BTreeMap<NaiveDate, Holiday>>> {
-    let mut map = HashMap::new();
+pub fn build(years: &Option<&std::ops::Range<Year>>) -> Result<HashMap<Year, BTreeMap<NaiveDate, Holiday>>> {
+  let mut map = HashMap::new();
 
-    build_year(
+  build_year(
     years,
     2000,
     vec![
@@ -32,7 +31,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2001,
     vec![
@@ -57,7 +56,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2002,
     vec![
@@ -81,7 +80,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2003,
     vec![
@@ -106,7 +105,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2004,
     vec![
@@ -131,7 +130,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2005,
     vec![
@@ -155,7 +154,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2006,
     vec![
@@ -180,7 +179,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2007,
     vec![
@@ -205,7 +204,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2008,
     vec![
@@ -230,7 +229,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2009,
     vec![
@@ -255,7 +254,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2010,
     vec![
@@ -280,7 +279,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2011,
     vec![
@@ -305,7 +304,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2012,
     vec![
@@ -330,7 +329,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2013,
     vec![
@@ -354,7 +353,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2014,
     vec![
@@ -379,7 +378,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2015,
     vec![
@@ -404,7 +403,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2016,
     vec![
@@ -428,7 +427,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2017,
     vec![
@@ -456,7 +455,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2018,
     vec![
@@ -484,7 +483,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2019,
     vec![
@@ -511,7 +510,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2020,
     vec![
@@ -539,7 +538,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2021,
     vec![
@@ -566,7 +565,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2022,
     vec![
@@ -595,7 +594,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2023,
     vec![
@@ -623,7 +622,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2024,
     vec![
@@ -649,7 +648,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2025,
     vec![
@@ -676,7 +675,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2026,
     vec![
@@ -704,7 +703,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2027,
     vec![
@@ -731,7 +730,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2028,
     vec![
@@ -759,7 +758,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2029,
     vec![
@@ -787,7 +786,7 @@ pub fn build(
     "Bulgaria",
   );
 
-    build_year(
+  build_year(
     years,
     2030,
     vec![
@@ -814,5 +813,5 @@ pub fn build(
     "Bulgaria",
   );
 
-    Ok(map)
+  Ok(map)
 }
